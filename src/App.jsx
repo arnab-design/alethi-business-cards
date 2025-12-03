@@ -7,37 +7,37 @@ const teamMembers = [
     name: "James Kenyon-Brown",
     title: "CEO & Founder",
     subtitle: "Enterprise Digital & AI Strategy",
-    email: "james@alethi.ai"
+    email: "james@alethiai.com"
   },
   {
     name: "Arnab Tagore",
     title: "CTO & Founder",
     subtitle: "Global Enterprise Data Architecture",
-    email: "arnab@alethi.ai"
+    email: "arnab@alethiai.com"
   },
   {
     name: "Saksham Chawla",
     title: "CPO & Founder",
     subtitle: "Product Strategy & Security",
-    email: "saksham@alethi.ai"
+    email: "saksham@alethiai.com"
   },
   {
     name: "Prakash Jawahar",
     title: "Lead Engineer, Front-End & UX",
     subtitle: "Fintech & Defense Systems",
-    email: "prakash@alethi.ai"
+    email: "prakash@alethiai.com"
   },
   {
     name: "Prithvi Iyer",
     title: "Lead Engineer, Back-End & AI",
     subtitle: "Military Grade AI Solutions",
-    email: "prithvi@alethi.ai"
+    email: "prithvi@alethiai.com"
   },
   {
     name: "Anant Kumar",
     title: "Lead Engineer, Infrastructure",
     subtitle: "Scalable Cloud AI Systems",
-    email: "anant@alethi.ai"
+    email: "anant@alethiai.com"
   }
 ];
 
@@ -93,7 +93,7 @@ const CardBack = ({ member }) => {
             </p>
           </div>
           <p className="text-gray-600 font-inter text-xs">
-            alethi.ai
+            alethiai.com
           </p>
         </div>
       </div>
