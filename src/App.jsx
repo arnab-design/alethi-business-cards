@@ -68,11 +68,11 @@ const CardFront = () => {
 const CardBack = ({ member }) => {
   return (
     <div className="relative bg-white shadow-2xl overflow-hidden" style={{ width: '1050px', height: '600px' }}>
-      {/* Vertical Teal Accent Strip */}
-      <div className="absolute left-0 top-0 bottom-0 w-1.5 bg-assurance-teal"></div>
+      {/* Horizontal Teal Accent Strip */}
+      <div className="absolute left-0 right-0 bottom-0 h-1.5 bg-assurance-teal"></div>
       
       {/* Content Area */}
-      <div className="absolute inset-0 flex flex-col justify-between pl-16 pr-12 py-16">
+      <div className="absolute inset-0 flex flex-col justify-between pl-12 pr-12 py-16">
         {/* Top Section - Name & Title */}
         <div className="space-y-3">
           <h2 className="text-gray-900 font-inter font-bold text-3xl leading-tight">
