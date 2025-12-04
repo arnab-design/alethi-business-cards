@@ -53,10 +53,10 @@ const CardFront = () => {
           <span className="text-gray-900">ΤΗΙ ΑΙ</span>
         </h1>
       </div>
-      
+
       {/* Tagline - Bottom Center */}
       <div className="absolute bottom-12 left-0 right-0 flex justify-center">
-        <p className="text-assurance-teal font-inter text-base tracking-wider uppercase font-medium">
+        <p className="text-assurance-teal font-inter text-xl tracking-wider uppercase font-medium">
           The Assurance Platform for Technology Due Diligence
         </p>
       </div>
@@ -70,7 +70,7 @@ const CardBack = ({ member }) => {
     <div className="relative bg-white shadow-2xl overflow-hidden" style={{ width: '1050px', height: '600px' }}>
       {/* Horizontal Teal Accent Strip */}
       <div className="absolute left-0 right-0 bottom-0 h-1.5 bg-assurance-teal"></div>
-      
+
       {/* Content Area */}
       <div className="absolute inset-0 flex flex-col justify-between pl-12 pr-12 py-16">
         {/* Top Section - Name & Title */}
@@ -82,7 +82,7 @@ const CardBack = ({ member }) => {
             {member.title}
           </p>
         </div>
-        
+
         {/* Bottom Section - Contact Info */}
         <div className="space-y-2">
           <div className="flex items-center space-x-2">
@@ -117,7 +117,7 @@ function App() {
             High-Definition Print Templates
           </p>
         </div>
-        
+
         {/* Front Card */}
         <div className="mb-20">
           <h2 className="text-assurance-teal font-inter font-semibold text-2xl mb-8 tracking-wide">
@@ -127,7 +127,7 @@ function App() {
             <CardFront />
           </div>
         </div>
-        
+
         {/* Back Cards Grid */}
         <div className="mb-12">
           <h2 className="text-assurance-teal font-inter font-semibold text-2xl mb-8 tracking-wide">
