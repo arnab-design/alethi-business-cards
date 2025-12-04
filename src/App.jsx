@@ -1,5 +1,5 @@
 import React from 'react';
-import { Mail } from 'lucide-react';
+import { Mail, Globe } from 'lucide-react';
 
 // Team member data
 const teamMembers = [
@@ -86,14 +86,17 @@ const CardBack = ({ member }) => {
         {/* Bottom Section - Contact Info */}
         <div className="space-y-2">
           <div className="flex items-center space-x-2">
-            <Mail className="w-4 h-4 text-assurance-teal" />
-            <p className="text-gray-900 font-inter text-sm">
+            <Mail className="w-5 h-5 text-assurance-teal" />
+            <p className="text-gray-900 font-inter text-base">
               {member.email}
             </p>
           </div>
-          <p className="text-gray-600 font-inter text-xs">
-            alethiai.com
-          </p>
+          <div className="flex items-center space-x-2">
+            <Globe className="w-5 h-5 text-assurance-teal" />
+            <p className="text-gray-600 font-inter text-sm">
+              alethiai.com
+            </p>
+          </div>
         </div>
       </div>
     </div>
