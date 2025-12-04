@@ -47,8 +47,10 @@ const CardFront = () => {
     <div className="relative bg-white shadow-2xl" style={{ width: '1050px', height: '600px' }}>
       {/* Main Logo - Centered */}
       <div className="absolute inset-0 flex flex-col items-center justify-center">
-        <h1 className="text-assurance-teal font-inter font-light tracking-widest text-6xl mb-8">
-          ALΞΤΗΙ ΑΙ
+        <h1 className="font-inter font-light tracking-widest text-6xl mb-8">
+          <span className="text-gray-900">AL</span>
+          <span className="text-assurance-teal">Ξ</span>
+          <span className="text-gray-900">ΤΗΙ ΑΙ</span>
         </h1>
       </div>
       
