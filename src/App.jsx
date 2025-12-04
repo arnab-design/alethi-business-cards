@@ -47,14 +47,14 @@ const CardFront = () => {
     <div className="relative bg-white shadow-2xl" style={{ width: '1050px', height: '600px' }}>
       {/* Main Logo - Centered */}
       <div className="absolute inset-0 flex flex-col items-center justify-center">
-        <h1 className="text-gray-900 font-inter font-light tracking-widest text-6xl mb-8">
+        <h1 className="text-assurance-teal font-inter font-light tracking-widest text-6xl mb-8">
           ALΞΤΗΙ ΑΙ
         </h1>
       </div>
       
       {/* Tagline - Bottom Center */}
       <div className="absolute bottom-12 left-0 right-0 flex justify-center">
-        <p className="text-assurance-teal font-inter text-xs tracking-wider uppercase font-medium">
+        <p className="text-assurance-teal font-inter text-base tracking-wider uppercase font-medium">
           The Assurance Platform for Technology Due Diligence
         </p>
       </div>
@@ -78,9 +78,6 @@ const CardBack = ({ member }) => {
           </h2>
           <p className="text-assurance-teal font-inter font-semibold text-lg">
             {member.title}
-          </p>
-          <p className="text-gray-600 font-inter text-sm">
-            {member.subtitle}
           </p>
         </div>
         
