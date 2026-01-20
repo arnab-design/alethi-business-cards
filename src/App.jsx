@@ -5,19 +5,19 @@ import { Mail, Globe } from 'lucide-react';
 const teamMembers = [
   {
     name: "Arnab Tagore",
-    title: "CEO & Founder",
+    title: "CEO",
     subtitle: "Enterprise Digital & AI Strategy",
     email: "arnab@alethiai.com"
   },
   {
     name: "Saksham Chawla",
-    title: "CTO & Founder",
+    title: "CTO",
     subtitle: "Product Strategy & Security",
     email: "saksham@alethiai.com"
   },
   {
     name: "James Kenyon-Brown",
-    title: "CGO & Founder",
+    title: "CGO",
     subtitle: "Global Enterprise Data Architecture",
     email: "james@alethiai.com"
   },
@@ -88,7 +88,7 @@ const CardBack = ({ member }) => {
           <div className="flex items-center space-x-2">
             <Globe className="w-5 h-5 text-assurance-teal" />
             <p className="text-gray-600 font-inter text-sm">
-              alethiai.com
+              alethi.ai
             </p>
           </div>
         </div>
