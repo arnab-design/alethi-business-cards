@@ -4,22 +4,22 @@ import { Mail, Globe } from 'lucide-react';
 // Team member data
 const teamMembers = [
   {
-    name: "James Kenyon-Brown",
+    name: "Arnab Tagore",
     title: "CEO & Founder",
     subtitle: "Enterprise Digital & AI Strategy",
-    email: "james@alethiai.com"
-  },
-  {
-    name: "Arnab Tagore",
-    title: "CTO & Founder",
-    subtitle: "Global Enterprise Data Architecture",
     email: "arnab@alethiai.com"
   },
   {
     name: "Saksham Chawla",
-    title: "CPO & Founder",
+    title: "CTO & Founder",
     subtitle: "Product Strategy & Security",
     email: "saksham@alethiai.com"
+  },
+  {
+    name: "James Kenyon-Brown",
+    title: "CGO & Founder",
+    subtitle: "Global Enterprise Data Architecture",
+    email: "james@alethiai.com"
   },
   {
     name: "Prakash Jawahar",
@@ -32,12 +32,6 @@ const teamMembers = [
     title: "Lead Engineer, Back-End & AI",
     subtitle: "Military Grade AI Solutions",
     email: "prithvi@alethiai.com"
-  },
-  {
-    name: "Anant Kumar",
-    title: "Lead Engineer, Infrastructure",
-    subtitle: "Scalable Cloud AI Systems",
-    email: "anant@alethiai.com"
   }
 ];
 
